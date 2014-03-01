@@ -1,0 +1,9 @@
+
+set title "Graph3B: Download Time of two Applications"
+set xrange[0:10]
+set xlabel "Time [seconds]"
+set ylabel "Utilization of Link 2-3"
+plot 'proj3B_gpout1.tr' using 1:3 title "Throughput of one TCP flow sending 4000 packets" with impulses, 'proj3B_gpout1.tr' using 1:2 title "Throughput of four TCP flows sending 1000 packets each" with impulses
+pause -1 "Hit return to continue"
+
+

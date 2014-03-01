@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 FINAL//EN">
+
+<HTML>
+
+<!-- Mirrored from homepages.inf.ed.ac.uk/jeh/Simjava/queueing/mm1_q/mm1_q.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Dec 2011 02:26:32 GMT -->
+<HEAD>
+<TITLE>mm1_q</TITLE>
+<META NAME="Generator" CONTENT="NetObjects Fusion 3.0 for Windows">
+
+</HEAD>
+
+<BODY  BGCOLOR="#FFFFFF" LINK="#0000CC" VLINK="#990066" TEXT="#000000" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=685>
+   <TR VALIGN="top" ALIGN="left">
+	<TD WIDTH=32 HEIGHT =7><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =32 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=1><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =1 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=1><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =1 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=1><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =1 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=16><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =16 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=7><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =7 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=1><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =1 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=79><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =79 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=7><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =7 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=14><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =14 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=386><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =386 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=2><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =2 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=73><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =73 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=41><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =41 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=20><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =20 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=2><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =2 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=1><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =1 HEIGHT=1 BORDER=0></TD>
+	<TD WIDTH=1><IMG SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/clearpixel.gif" WIDTH =1 HEIGHT=1 BORDER=0></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=8 HEIGHT =114></TD>
+	<TD WIDTH=482 COLSPAN=5><IMG id="Banner1" HEIGHT=114 WIDTH=482 SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/mm1_q_SweetBanner.gif"  BORDER=0  ALT=" M/M/1 Queues " ></TD>
+	<TD COLSPAN=5></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =14></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD></TD>
+	<TD WIDTH=653 COLSPAN=17>
+<P><B><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman"><U>Intr<A NAME="top"></A>oduction</P>
+<P></U></FONT></B><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman">This Section explains the simplest type of single queue - the M/M/1 queue.</P>
+<P>The simplest queueing system consists of two components (the <B>queue</B> and the <B>server</B>) and two attributes (the <B>inter-arrival time, i</B> and the <B>service time, t</B>). The usual schematic representation of this systems is as follows:</FONT></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =6></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=9 HEIGHT =200></TD>
+	<TD WIDTH=400 COLSPAN=2 ALIGN="left" VALIGN="top"><IMG id="Picture2" HEIGHT=200 WIDTH=400 SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/mm1_q/QueueScheme.gif"  BORDER=0  ALT="QueueScheme" ></TD>
+	<TD COLSPAN=7></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =12></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=2></TD>
+	<TD WIDTH=651 COLSPAN=15>
+<P><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman">Customers arrive at the queue from the input randomly in time but have mean inter-arrival time i. The customers take a random amount of time to be served but have mean service time t. We assume in this case that these random times both have an exponential distribution.</P>
+<P>This system is illustrated by the applet below. You may enter the service time and inter-arrival time in the top-right fields. (Note: for the queue to be stable (ie not get longer indefinitely as time goes on) the service time must be shorter than the inter-arrival time.)</P>
+<P>The applet then uses </FONT><A HREF="#QT"><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman">Queueing Theory</FONT></A><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman"> to calculate various performance measures for the queue. These are displayed immediately. You may simulate the queue by pressing 'Run'. This causes customers to be generated at the Source and move to the queue. Above the illustration is a representation of the</FONT><A HREF="#MC"><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman"> Markov Chain</FONT></A><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman"> associated with this queue. The states of the Markov chain represent the number of customers in the system. </P>
+<P>As the simulation runs, statistics are collected from it and displayed below the calculated measures. You can compare these, to see how quickly they approach the predicted values.</FONT></TD>
+	<TD></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =3></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=5 HEIGHT =492></TD>
+	<TD WIDTH=610 COLSPAN=9><APPLET id="Java3"  HEIGHT=492 WIDTH=610  codebase="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/" CODE="mm1.Qapplet.class"></APPLET></TD>
+	<TD COLSPAN=4></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =3></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=3 HEIGHT =24></TD>
+	<TD WIDTH=24 COLSPAN=3 ALIGN="left" VALIGN="top"><A HREF="#top"><IMG id="Picture6" HEIGHT=24 WIDTH=24 SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/SPNavUp.gif"  BORDER=0  ALT="SPNavUp" ></A></TD>
+	<TD COLSPAN=12></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =7></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=3></TD>
+	<TD WIDTH=647 COLSPAN=12>
+<P><B><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman"><U>Qu<A NAME="QT"></A>eueing Theory</P>
+<P></U></FONT></B><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman">To solve the queueing system we rely on the underlying Markov chain theory. However we can abstract away from this and use the traffic intensity to derive measures for the queue. The traffic intensity, t, is the service time divided by the inter-arrival time. From this we calculate the measures used in the applet as follows:</P>
+<P>Let p<I><SUB>i</SUB></I> represent the probability that their are <I>i</I> customers in the system. The probability that the system is idle, p<SUB>0</SUB>,&nbsp; (ie the Markov chain is in state 0) is given by</P>
+<P>&nbsp;p<SUB>0</SUB> = 1 - t.</P>
+<P>The Utilisation, U, of the system is 1 - p<SUB>0</SUB>. ie. the proportion of the time that it is not idle. </P>
+<P>U = 1 - p<SUB>0</SUB> = t.</P>
+<P>The probability that the queue is non-empty, B, is the probability of not being in state 0 or state 1 of the Markov chain ie.</P>
+<P>&nbsp;1-p<SUB>0</SUB>-p<SUB>1</SUB> = 1 - (1-t) - ((1-t)t) = 1 -1 + t - t + t<SUP>2</SUP> = t<SUP>2</SUP>.</P>
+<P>The expectation of the number of customers in the service centre, N, is the sum over all states of the number of customers multiplied by the probability of being in that state. </P>
+<P>This works out to be t/(1-t).</P>
+<P>The expectation of the number of customers in the queue is calculated similarly but one multiplies by one less than the number of customers.</P>
+<P></FONT><FONT FACE="Times New Roman,Times,Times NewRoman">&nbsp;</FONT><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman">This works out to be t<SUP>2</SUP>/(1-t).</FONT></TD>
+	<TD COLSPAN=3></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =2></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=4 HEIGHT =24></TD>
+	<TD WIDTH=24 COLSPAN=3 ALIGN="left" VALIGN="top"><A HREF="#top"><IMG id="Picture5" HEIGHT=24 WIDTH=24 SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/SPNavUp.gif"  BORDER=0  ALT="SPNavUp" ></A></TD>
+	<TD COLSPAN=11></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =6></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=2></TD>
+	<TD WIDTH=650 COLSPAN=14>
+<P><A NAME="MC"></A><B><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman"><U>Markov chains</P>
+<P></U></FONT></B><FONT SIZE="+1" FACE="Times New Roman,Times,Times NewRoman">A Markov chain is a system which has a set S of states and changes randomly between these states in a sequence of discrete steps. The length of time spent in each state is the 'sojourn time' in that state, T. This is an exponentially distributed random variable and in state<I> i</I> has parameter q<I><SUB>i</SUB></I>. If the system is in state<I> i </I>and makes a transition then it has a fixed probability, p<I><SUB>ij</SUB></I>, of&nbsp; being in state <I>j</I>. </P>
+<P>We can construct a Markov chain from a queueing system as follows; assign each possible configuration of the queue a state, define the probability of moving from one state to another by the probability of a customer arriving or departing. Thus state 0 corresponds to there being no customers in the system, state 1 to there being one customer and so on. If we are in state <I>i</I>, then the probability of moving to state <I>i</I>-1 is the probability of a customer departing the system, and the probability of moving to state <I>i</I>+1 is the probability of a customer arriving in the system (apart from the special case of state 0 when we cannot have a departure). </P>
+<P>The fact that we can construct Markov chains from queueing systems means we can use standard techniques from Markov chain theory to find, for example, the probability of the queue having a particular number of customers (by finding the probability of the corresponding Markov chain being in the corresponding state).</FONT></TD>
+	<TD COLSPAN=2></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=18 HEIGHT =11></TD>
+   </TR>
+   <TR VALIGN="top" ALIGN="left">
+	<TD COLSPAN=10 HEIGHT =31></TD>
+	<TD WIDTH=388 COLSPAN=2>
+	  <TABLE id="NavigationBar1" BORDER=0 CELLSPACING=0 CELLPADDING=0  WIDTH=388 >
+	 <TR VALIGN="top" ALIGN="left">
+		<TD WIDTH=97><A HREF="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/index.html"><IMG id="NavigationButton21" HEIGHT=31 WIDTH=97 SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/Networks/Home_MetalButton.gif"  BORDER=0  ALT=" Home " ></A></TD>
+		<TD WIDTH=97><A HREF="mm1_q.html"><IMG id="NavigationButton22" HEIGHT=31 WIDTH=97 SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/mm1_q/mm1_q_MetalButtonOn.gif"  BORDER=0  ALT=" M/M/1 Queues " ></A></TD>
+		<TD WIDTH=97><A HREF="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/Networks/networks.html"><IMG id="NavigationButton23" HEIGHT=31 WIDTH=97 SRC="http://homepages.inf.ed.ac.uk/jeh/Simjava/queueing/Networks_MetalButton.gif"  BORDER=0  ALT=" Networks " ></A></TD>
+	 </TR>
+	  </TABLE></TD>
+	<TD COLSPAN=6></TD>
+   </TR>
+  </TABLE>
+<p>
+<FONT COLOR = 'lilac'>Tom Slater, June 2000</FONT>
+</P>
+
+</BODY>
+
+<!-- Mirrored from homepages.inf.ed.ac.uk/jeh/Simjava/queueing/mm1_q/mm1_q.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Dec 2011 02:26:32 GMT -->
+</HTML>

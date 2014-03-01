@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+dl.acm.org	TRUE	/	FALSE	1999999999	CFID	75177036
+dl.acm.org	TRUE	/	FALSE	1999999999	CFTOKEN	68321966
+dl.acm.org	TRUE	/	FALSE	1999999999	IP_CLIENT	1795640
+dl.acm.org	TRUE	/	FALSE	1999999999	SITE_CLIENT	6995476
+www.mathaware.org	TRUE	/	FALSE	1999999999	AMS_BP37qb3Zu9	130.44.204.33.1324866386727744
+

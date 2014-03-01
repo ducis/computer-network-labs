@@ -1,0 +1,413 @@
+<html>
+
+
+<!-- Mirrored from www.cs.cornell.edu/home/kleinber/networks-book/ by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Dec 2011 02:26:37 GMT -->
+<head>
+<link rel=stylesheet type="text/css" href="http://www.cs.cornell.edu/home/kleinber/networks-book/web.css">
+<TITLE> Networks, Crowds, and Markets: A Book by David Easley and Jon Kleinberg
+</TITLE>
+</head>
+
+<body bgcolor=white text=black link=blue vlink=blue alink=blue>
+
+<hr>
+
+
+<center>
+
+<table class="image">
+<tr>
+
+<td>
+<IMG SRC=http://www.cs.cornell.edu/home/kleinber/networks-book/addhealth.gif
+        HEIGHT=160 BORDER=0 HSPACE=2>
+<small>
+<br>
+High School Dating
+  <small>
+  <br> (Bearman, Moody, and Stovel, 2004)
+  <br> (Image by Mark Newman)
+  </small>
+</small>
+</td>
+
+<td>
+<IMG SRC="http://www.cs.cornell.edu/home/kleinber/networks-book/white.png"  WIDTH=30 BORDER=0 HSPACE=2>
+<br>
+</td>
+
+<td>
+<IMG SRC=http://www.cs.cornell.edu/home/kleinber/networks-book/adamic-hier.jpg
+        HEIGHT=160 BORDER=0 HSPACE=2>
+<small>
+<br>
+Corporate E-Mail Communication
+  <small>
+  <br> (Adamic and Adar, 2005)
+  <br> .
+  </small>
+</small>
+</td>
+
+<td>
+<IMG SRC="http://www.cs.cornell.edu/home/kleinber/networks-book/white.png"  WIDTH=30 BORDER=0 HSPACE=2>
+<br>
+</td>
+
+
+<td>
+<IMG SRC=http://www.cs.cornell.edu/home/kleinber/networks-book/manhattan-paths.gif
+        HEIGHT=220 BORDER=0 HSPACE=2>
+<small>
+<br> Trails of Flickr Users 
+<br> in Manhattan
+  <small>
+  <br> (Crandall et al. 2009)
+  </small>
+</small>
+</td>
+
+<td>
+<IMG SRC="http://www.cs.cornell.edu/home/kleinber/networks-book/white.png"  WIDTH=30 BORDER=0 HSPACE=2>
+<br>
+</td>
+
+<td>
+<IMG SRC=http://www.cs.cornell.edu/home/kleinber/networks-book/intro-prediction-mkt2-ann.gif
+        HEIGHT=160 BORDER=0 HSPACE=2>
+<small>
+<br> Prediction Market for the
+<br> 2008 U.S. Presidential Election
+  <small>
+  <br> (Iowa Electonic Markets, 2008)
+  </small>
+</small>
+</td>
+
+
+</tr>
+</table>
+</center>
+
+
+
+<hr>
+
+<center>
+<h3> 
+<big><big>Networks, Crowds, and Markets: </big></big>
+<br> Reasoning About a Highly Connected World 
+</h3>
+
+<h3> By 
+<a href="http://www.arts.cornell.edu/econ/deasley/">David Easley</a>
+and 
+<a href="http://www.cs.cornell.edu/home/kleinber/">Jon Kleinberg</a>
+</h3>
+
+</center>
+
+
+<big>
+<p>
+Over the past decade there has been a growing public fascination with
+the complex "connectedness" of modern society.  This connectedness 
+is found in many incarnations: in the rapid growth of the Internet and
+the Web, in the ease with which global communication now takes place,
+and in the ability of news and information as well as epidemics and
+financial crises to spread around the world 
+with surprising speed and intensity.
+These are phenomena that involve networks, incentives, and the
+aggregate behavior of groups of people; they are based
+on the links that connect us and the ways in which each of
+our decisions can have subtle consequences for the outcomes of everyone else.
+
+<p>
+<i>Networks, Crowds, and Markets</i>
+combines different scientific perspectives in its approach 
+to understanding networks and behavior.  Drawing on ideas from 
+economics, sociology, computing and information science, and 
+applied mathematics, it describes the emerging field of study that
+is growing at the interface of all these areas, addressing fundamental
+questions about how the social, economic, and technological worlds
+are connected.
+
+<p> 
+The book is based on an inter-disciplinary course entitled
+<a href="http://www.infosci.cornell.edu/courses/info2040/">Networks</a>
+that we teach at Cornell.
+The book, like the course, is designed at the introductory undergraduate level
+with no formal prerequisites.
+To support deeper explorations, most of
+the chapters are supplemented with optional advanced sections.
+
+<p>
+The book is published by Cambridge University Press (2010); 
+for more information, please see 
+<a href="http://www.cambridge.org/us/networksbook">Cambridge's page for the book.</a>
+
+<hr>
+
+You can download a complete pre-publication draft of
+<a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf">Networks, Crowds, and Markets</a>
+here.
+We welcome your feedback on the manuscript.
+
+<hr>
+
+<h3> Contents (with links to individual chapters) </h3>
+
+<ul>
+<ul>
+<ul></ul>
+<p><li>Chapter 1. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch01.pdf">Overview</a>
+<ul>
+  <li>1.1 Aspects of Networks
+  <li>1.2 Central Themes and Topics
+</ul></ul>
+<p>Part I    Graph Theory and Social Networks
+<ul>
+<p><li>Chapter 2. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch02.pdf">Graphs</a>
+<ul>
+  <li>2.1 Basic Definitions
+  <li>2.2 Paths and Connectivity
+  <li>2.3 Distance and Breadth-First Search
+  <li>2.4 Network Datasets: An Overview
+</ul>
+<p><li>Chapter 3. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf">Strong and Weak Ties</a>
+<ul>
+  <li>3.1 Triadic Closure
+  <li>3.2 The Strength of Weak Ties
+  <li>3.3 Tie Strength and Network Structure in Large-Scale Data
+  <li>3.4 Tie Strength, Social Media, and Passive Engagement
+  <li>3.5 Closure, Structural Holes, and Social Capital
+  <li>3.6 Advanced Material: Betweenness Measures and Graph Partitioning
+</ul>
+<p><li>Chapter 4. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch04.pdf">Networks in Their Surrounding Contexts</a>
+<ul>
+  <li>4.1 Homophily
+  <li>4.2 Mechanisms Underlying Homophily: Selection and Social Influence
+  <li>4.3 Affiliation
+  <li>4.4 Tracking Link Formation in On-Line Data
+  <li>4.5 A Spatial Model of Segregation
+</ul>
+<p><li>Chapter 5. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch05.pdf">Positive and Negative Relationships</a>
+<ul>
+  <li>5.1 Structural Balance
+  <li>5.2 Characterizing the Structure of Balanced Networks
+  <li>5.3 Applications of Structural Balance
+  <li>5.4 A Weaker Form of Structural Balance
+  <li>5.5 Advanced Material: Generalizing the Definition of Structural Balance
+</ul></ul>
+<p>Part II    Game Theory
+<ul><ul></ul>
+<p><li>Chapter 6. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch06.pdf">Games</a>
+<ul>
+  <li>6.1 What is a Game?
+  <li>6.2 Reasoning about Behavior in a Game
+  <li>6.3 Best Responses and Dominant Strategies
+  <li>6.4 Nash Equilibrium
+  <li>6.5 Multiple Equilibria: Coordination Games
+  <li>6.6 Multiple Equilibria: The Hawk-Dove Game
+  <li>6.7 Mixed Strategies
+  <li>6.8 Mixed Strategies: Examples and Empirical Analysis
+  <li>6.9 Pareto-Optimality and Social Optimality
+  <li>6.10 Advanced Material: Dominated Strategies and Dynamic Games
+</ul>
+<p><li>Chapter 7. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch07.pdf">Evolutionary Game Theory</a>
+<ul>
+  <li>7.1 Fitness as a Result of Interaction
+  <li>7.2 Evolutionarily Stable Strategies
+  <li>7.3 A General Description of Evolutionarily Stable Strategies
+  <li>7.4 Relationship Between Evolutionary and Nash Equilibria
+  <li>7.5 Evolutionarily Stable Mixed Strategies
+</ul>
+<p><li>Chapter 8. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch08.pdf">Modeling Network Traffic using Game Theory</a>
+<ul>
+  <li>8.1 Traffic at Equilibrium
+  <li>8.2 Braess's Paradox
+  <li>8.3 Advanced Material: The Social Cost of Traffic at Equilibrium
+</ul>
+<p><li>Chapter 9. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch09.pdf">Auctions</a>
+<ul>
+  <li>9.1 Types of Auctions
+  <li>9.2 When are Auctions Appropriate?
+  <li>9.3 Relationships between Different Auction Formats
+  <li>9.4 Second-Price Auctions
+  <li>9.5 First-Price Auctions and Other Formats
+  <li>9.6 Common Values and The Winner's Curse
+  <li>9.7 Advanced Material: Bidding Strategies in First-Price and All-Pay Auctions
+</ul></ul>
+<p>Part III    Markets and Strategic Interaction in Networks
+<ul><ul></ul>
+<p><li>Chapter 10. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch10.pdf">Matching Markets</a>
+<ul>
+  <li>10.1 Bipartite Graphs and Perfect Matchings
+  <li>10.2 Valuations and Optimal Assignments
+  <li>10.3 Prices and the Market-Clearing Property
+  <li>10.4 Constructing a Set of Market-Clearing Prices
+  <li>10.5 How Does this Relate to Single-Item Auctions?
+  <li>10.6 Advanced Material: A Proof of the Matching Theorem
+</ul>
+<p><li>Chapter 11. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch11.pdf">Network Models of Markets with Intermediaries</a>
+<ul>
+  <li>11.1 Price-Setting in Markets
+  <li>11.2 A Model of Trade on Networks
+  <li>11.3 Equilibria in Trading Networks
+  <li>11.4 Further Equilibrium Phenomena: Auctions and Ripple Effects
+  <li>11.5 Social Welfare in Trading Networks
+  <li>11.6 Trader Profits
+  <li>11.7 Reflections on Trade with Intermediaries
+</ul>
+<p><li>Chapter 12. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch12.pdf">Bargaining and Power in Networks</a>
+<ul>
+  <li>12.1 Power in Social Networks
+  <li>12.2 Experimental Studies of Power and Exchange
+  <li>12.3 Results of Network Exchange Experiments
+  <li>12.4 A Connection to Buyer-Seller Networks
+  <li>12.5 Modeling Two-Person Interaction: The Nash Bargaining Solution
+  <li>12.6 Modeling Two-Person Interaction: The Ultimatum Game
+  <li>12.7 Modeling Network Exchange: Stable Outcomes
+  <li>12.8 Modeling Network Exchange: Balanced Outcomes
+  <li>12.9 Advanced Material: A Game-Theoretic Approach to Bargaining
+</ul></ul>
+<p>Part IV    Information Networks and the World Wide Web
+<ul><ul></ul>
+<p><li>Chapter 13. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch13.pdf">The Structure of the Web</a>
+<ul>
+  <li>13.1 The World Wide Web
+  <li>13.2 Information Networks, Hypertext, and Associative Memory
+  <li>13.3 The Web as a Directed Graph
+  <li>13.4 The Bow-Tie Structure of the Web
+  <li>13.5 The Emergence of Web 2.0
+</ul>
+<p><li>Chapter 14. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf">Link Analysis and Web Search</a>
+<ul>
+  <li>14.1 Searching the Web: The Problem of Ranking
+  <li>14.2 Link Analysis using Hubs and Authorities
+  <li>14.3 PageRank
+  <li>14.4 Applying Link Analysis in Modern Web Search
+  <li>14.5 Applications beyond the Web
+  <li>14.6 Advanced Material: Spectral Analysis, Random Walks, and Web Search
+</ul>
+<p><li>Chapter 15. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch15.pdf">Sponsored Search Markets</a>
+<ul>
+  <li>15.1 Advertising Tied to Search Behavior
+  <li>15.2 Advertising as a Matching Market
+  <li>15.3 Encouraging Truthful Bidding in Matching Markets: The VCG Principle
+  <li>15.4 Analyzing the VCG Procedure: Truth-Telling as a Dominant Strategy
+  <li>15.5 The Generalized Second Price Auction
+  <li>15.6 Equilibria of the Generalized Second Price Auction
+  <li>15.7 Ad Quality
+  <li>15.8 Complex Queries and Interactions Among Keywords
+  <li>15.9 Advanced Material: VCG Prices and the Market-Clearing Property
+</ul></ul>
+<p>Part V    Network Dynamics: Population Models
+<ul><ul></ul>
+<p><li>Chapter 16. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch16.pdf">Information Cascades</a>
+<ul>
+  <li>16.1 Following the Crowd
+  <li>16.2 A Simple Herding Experiment
+  <li>16.3 Bayes' Rule: A Model of Decision-Making Under Uncertainty
+  <li>16.4 Bayes' Rule in the Herding Experiment
+  <li>16.5 A Simple, General Cascade Model
+  <li>16.6 Sequential Decision-Making and Cascades
+  <li>16.7 Lessons from Cascades
+</ul>
+<p><li>Chapter 17. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch17.pdf">Network Effects</a>
+<ul>
+  <li>17.1 The Economy Without Network Effects
+  <li>17.2 The Economy with Network Effects
+  <li>17.3 Stability, Instability, and Tipping Points
+  <li>17.4 A Dynamic View of the Market
+  <li>17.5 Industries with Network Goods
+  <li>17.6 Mixing Individual Effects with Population-Level Effects
+  <li>17.7 Advanced Material: Negative Externalities and The El Farol Bar Problem
+</ul>
+<p><li>Chapter 18. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch18.pdf">Power Laws and Rich-Get-Richer Phenomena</a>
+<ul>
+  <li>18.1 Popularity as a Network Phenomenon
+  <li>18.2 Power Laws
+  <li>18.3 Rich-Get-Richer Models
+  <li>18.4 The Unpredictability of Rich-Get-Richer Effects
+  <li>18.5 The Long Tail
+  <li>18.6 The Effect of Search Tools and Recommendation Systems
+  <li>18.7 Advanced Material: Analysis of Rich-Get-Richer Processes
+</ul></ul>
+<p>Part VI    Network Dynamics: Structural Models
+<ul><ul></ul>
+<p><li>Chapter 19. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19.pdf">Cascading Behavior in Networks</a>
+<ul>
+  <li>19.1 Diffusion in Networks
+  <li>19.2 Modeling Diffusion through a Network
+  <li>19.3 Cascades and Clusters
+  <li>19.4 Diffusion, Thresholds, and the Role of Weak Ties
+  <li>19.5 Extensions of the Basic Cascade Model
+  <li>19.6 Knowledge, Thresholds, and Collective Action
+  <li>19.7 Advanced Material: The Cascade Capacity
+</ul>
+<p><li>Chapter 20. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch20.pdf">The Small-World Phenomenon</a>
+<ul>
+  <li>20.1 Six Degrees of Separation
+  <li>20.2 Structure and Randomness
+  <li>20.3 Decentralized Search
+  <li>20.4 Empirical Analysis and Generalized Models
+  <li>20.5 Core-Periphery Structures and Difficulties in Decentralized Search
+  <li>20.6 Advanced Material: Analysis of Decentralized Search
+</ul>
+<p><li>Chapter 21. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch21.pdf">Epidemics</a>
+<ul>
+  <li>21.1 Diseases and the Networks that Transmit Them
+  <li>21.2 Branching Processes
+  <li>21.3 The SIR Epidemic Model
+  <li>21.4 The SIS Epidemic Model
+  <li>21.5 Synchronization
+  <li>21.6 Transient Contacts and the Dangers of Concurrency
+  <li>21.7 Genealogy, Genetic Inheritance, and Mitochondrial Eve
+  <li>21.8 Advanced Material: Analysis of Branching and Coalescent Processes
+</ul></ul>
+<p>Part VII    Institutions and Aggregate Behavior
+<ul><ul></ul>
+<p><li>Chapter 22. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch22.pdf">Markets and Information</a>
+<ul>
+  <li>22.1 Markets with Exogenous Events
+  <li>22.2 Horse Races, Betting, and Beliefs
+  <li>22.3 Aggregate Beliefs and the ``Wisdom of Crowds''
+  <li>22.4 Prediction Markets and Stock Markets
+  <li>22.5 Markets with Endogenous Events
+  <li>22.6 The Market for Lemons
+  <li>22.7 Asymmetric Information in Other Markets
+  <li>22.8 Signaling Quality
+  <li>22.9 Quality Uncertainty On-Line: Reputation Systems and Other Mechanisms
+  <li>22.10 Advanced Material: Wealth Dynamics in Markets
+</ul>
+<p><li>Chapter 23. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch23.pdf">Voting</a>
+<ul>
+  <li>23.1 Voting for Group Decision-Making
+  <li>23.2 Individual Preferences
+  <li>23.3 Voting Systems: Majority Rule
+  <li>23.4 Voting Systems: Positional Voting
+  <li>23.5 Arrow's Impossibility Theorem
+  <li>23.6 Single-Peaked Preferences and the Median Voter Theorem
+  <li>23.7 Voting as a Form of Information Aggregation
+  <li>23.8 Insincere Voting for Information Aggregation
+  <li>23.9 Jury Decisions and the Unanimity Rule
+  <li>23.10 Sequential Voting and the Relation to Information Cascades
+  <li>23.11 Advanced Material: A Proof of Arrow's Impossibility Theorem
+</ul>
+<p><li>Chapter 24. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch24.pdf">Property Rights</a>
+<ul>
+  <li>24.1 Externalities and the Coase Theorem
+  <li>24.2 The Tragedy of the Commons
+  <li>24.3 Intellectual Property
+</ul></ul>
+<p><a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-bib.pdf">Bibliography</a>
+
+</big>
+
+<hr>
+
+</body>
+
+<!-- Mirrored from www.cs.cornell.edu/home/kleinber/networks-book/ by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Dec 2011 02:26:37 GMT -->
+</html>

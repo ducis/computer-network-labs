@@ -1,0 +1,12 @@
+
+head
+./dsdv 4033 a.dat
+./dsdv 4034 f.dat
+node1
+./dsdv 4033 b.dat
+node2
+./dsdv 4033 c.dat
+node3
+./dsdv 4033 d.dat
+node4
+./dsdv 4033 e.dat

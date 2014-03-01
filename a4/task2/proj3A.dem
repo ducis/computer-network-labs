@@ -1,0 +1,10 @@
+
+set title "Graph3A: Throughput of two TCP Tahoe Flows with Different RTT"
+set xrange[0:10.5]
+set xlabel "Time [seconds]"
+set ylabel "Utilization of Link2-3"
+plot 'proj3A_gpout1.tr' using 1:3 title "Throughput of both TCP flows (40ms and 200ms RTT)" with impulses,'proj3A_gpout1.tr' using 1:2 title "Throughput of TCP flow with 200ms RTT" with impulses
+pause -1 "Hit return to continue"
+
+
+

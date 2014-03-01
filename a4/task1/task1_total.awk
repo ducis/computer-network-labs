@@ -1,0 +1,1 @@
+{if ($1== "r" && $7==3 && $17==1 && $9=="tcp") {a += $11} else if ($1== "r" && $7==3 && $17==2 && $9=="cbr") {b += $11}} END {printf (" tcp:\t%d\n cbr:\t%d\n total:\t%d\n tcp ratio:\t%.4f \n cbr ratio:\t%.4f\n", a, b, a+b, a/(a+b), b/(a+b))}

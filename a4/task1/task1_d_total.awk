@@ -1,0 +1,1 @@
+awk '{if ($1== "r" && $7==3 && $17==1 && $9=="tcp") {a += $11} else if ($1== "r" && $7==3 && $17==2 && $9=="tcp") {b += $11}} END {printf (" tcp1:\t%d\n tcp2:\t%d\n total:\t%d\n tcp1 ratio:\t%.4f \n tcp2 ratio:\t%.4f\n", a, b, a+b, a/(a+b), b/(a+b))}' task1_out.nam

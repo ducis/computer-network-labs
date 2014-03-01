@@ -1,0 +1,126 @@
+<HTML>
+
+<!-- Mirrored from www.mathaware.org/mam/04/essays/smallworld.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Dec 2011 02:26:36 GMT -->
+<HEAD>
+<TITLE>Essay: The Small-World Phenomenon and Decentralized Search</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<p>
+<CENTER>
+<font size=+2><b>Math Awareness Month - April 2004</b></font><br><br>
+<font size=+1><b>The Mathematics of Networks</b></font><br><br>
+<CENTER>
+<IMG SRC="http://www.mathaware.org/mam/images/forum.blueline.gif"
+ALT="_____________________________________"><BR>
+
+<A HREF="http://www.mathaware.org/">Current MAM Home Page</A> ||
+<A HREF="http://www.mathaware.org/about.mam.html#previous"> Previous MAWs/MAMs</a> ||
+<A HREF="http://www.mathaware.org/mamdynamic/activities/">Current Activities</A><br>
+<IMG SRC="http://www.mathaware.org/mam/images/forum.blueline.gif" 
+ALT="_____________________________________"><BR>
+</CENTER>
+</A><BR><br>
+</center>
+</p>
+
+<center>
+<table width=570>
+<tr>
+<td>
+<p>
+From <i>SIAM News</i>, Volume 37, Number 3, April 2004
+</p>
+<h3 align=center>
+The Small-World Phenomenon and Decentralized Search
+</h3>
+
+<p align=center>
+By Jon Kleinberg
+</p>
+
+<p>
+The small-world phenomenon -- the principle that we are all linked by short chains of acquaintances, or "six degrees of separation" -- is a fundamental issue in social networks; it is a basic statement about the abundance of short paths in a graph whose nodes are people, with links joining pairs who know one another. It is also a topic on which the feedback between social, mathematical, and computational issues has been particularly fluid.
+</p>
+<p>
+The problem has its roots in experiments performed by the social psychologist Stanley Milgram in the 1960s; to trace out short paths through the social network of the United States, he asked participants to forward a letter to a "target person" living near Boston, with the restriction that each participant could advance the letter only by forwarding it to a single acquaintance.
+Milgram found that the median completed chain length was six. Why should a social network contain such short paths?
+</p>
+<p>
+Working much more recently, applied mathematicians Duncan Watts and Steve Strogatz proposed thinking about networks with this small-world property as a superposition: a highly clustered sub-network consisting of the "local acquaintances" of nodes, together with a collection of random long-range shortcuts that help produce short paths. In addition to empirical studies of social, technological, and biological networks, Watts and Strogatz considered the following simple model system: Start with a <i>d</i>-dimensional lattice network, and add a small number of long-range links out of each node, to destinations chosen uniformly at random. A network created by this superposition will have local clustering and short paths, just like many of the networks found in the real world. (See Figures 1 and 2.)
+</p>
+
+<center>
+<img src="http://www.mathaware.org/mam/04/essays/kleinberg1.gif">
+</center>
+<p>
+<blockquote>
+Figure 1. Two-dimensional grid with a single random shortcut superimposed.
+</blockquote>
+</p>
+
+<center>
+<img src="http://www.mathaware.org/mam/04/essays/kleinberg2.gif">
+</center>
+<p>
+<blockquote>
+Figure 2. Two-dimensional grid with many random shortcuts superimposed (as in the Watts-Strogatz model).
+</blockquote>
+</p>
+
+<p>
+But Milgram's experiment really led to two striking discoveries, of which the existence of short paths was only the first. The second was that people in society, with knowledge of only their own personal acquaintances, were collectively able to forward the letter to a distant target so quickly. Viewed in computational terms, this is a statement about the power of a routing algorithm, equipped with purely local information, to find efficient paths to a destination; that such a decentralized routing scheme is effective says something striking about the underlying social network.
+</p>
+<p>
+Modeling this aspect of the small-world phenomenon poses further challenges: Can we find model systems for which it can be proved that Milgram-style decentralized routing will produce short paths? Here, mathematical analysis of the Watts-Strogatz model and its variants yields some surprises. For one, it is possible to prove that in the model of a <i>d</i>-dimensional lattice with uniformly random shortcuts, no decentralized algorithm can find short paths; this, then, is a concrete example of a network in which short paths exist, but local knowledge does not suffice to construct them.
+</p>
+<p>
+Exploring further, though, we find that a subtle variant of the Watts-Strogatz network will in fact support efficient search: Rather than adding the long-range shortcuts uniformly at random, we add links between nodes of this network with a probability that decays like the <i>d</i>th power of their distance (in <i>d</i> dimensions). Moreover, this is the only link distribution of this form for which efficient search is possible. The intuition here is that a probability decaying like the dth power of the distance is in fact uniform over all "distance scales" -- a node is roughly as likely to form links at distances 1 to 10 as it is at distances 10 to 100, 100 to 1000, and so on. (See Figure 3.)
+</p>
+
+<center>
+<img src="http://www.mathaware.org/mam/04/essays/kleinberg3.gif">
+</center>
+<p>
+<blockquote>
+Figure 3. A node with several random shortcuts spanning different distance scales.
+</blockquote>
+</p>
+
+<p>
+The ability to construct a searchable network in this way, with long-range links whose probabilities decay with distance, has proved useful in the design of peer-to-peer file-sharing systems on the Internet, where content must be found by nodes consulting one another in a decentralized fashion. In other words, nodes executing these look-up protocols are behaving very much like participants in the Milgram experiments -- a striking illustration of the way in which the computational and social sciences can inform one another, and the way in which mathematical models in the computational world turn into design principles with remarkable ease.
+</p>
+
+<p>
+Jon Kleinberg is an associate professor of computer science at Cornell University.
+</p>
+
+<p align=center>
+Download this article as a <a href="http://www.mathaware.org/mam/04/essays/smallworld.pdf">PDF</a> (612k).
+</p>
+
+</td>
+</tr>
+</table>
+</center>
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #666;
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+<hr size="1" noshade>
+<table width="70%"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" scope="col">	<p class="style1">Mathematics Awareness Month is sponsored each year by the <a href="http://www.mathaware.org/mam/ssi/about.jpbm.html">Joint Policy Board for Mathematics</a> to recognize the importance of mathematics through written materials and an accompanying poster that highlight mathematical developments and applications in a particular area. </p></td>
+  </tr>
+</table>
+
+</BODY>
+
+<!-- Mirrored from www.mathaware.org/mam/04/essays/smallworld.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Dec 2011 02:26:36 GMT -->
+</HTML>

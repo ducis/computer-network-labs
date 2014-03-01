@@ -1,0 +1,4 @@
+This is a selective repeat rdt with a window size of 1024. 
+std::deque instead of c-arrays as circular buffers is used 
+for ease of implemetation. All test cases are passed.
+
